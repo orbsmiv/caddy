@@ -18,7 +18,7 @@ set -euo pipefail
 : ${git_repo:="${2:-}"}
 : ${git_repo:="."}
 
-pkg=github.com/mholt/caddy/caddy/caddymain
+pkg=github.com/orbsmiv/caddy/caddy/caddymain
 ldflags=()
 
 # Timestamp of build

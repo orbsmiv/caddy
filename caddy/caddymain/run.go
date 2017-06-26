@@ -15,11 +15,11 @@ import (
 
 	"github.com/xenolf/lego/acme"
 
-	"github.com/mholt/caddy"
+	"github.com/orbsmiv/caddy"
 	// plug in the HTTP server type
-	_ "github.com/mholt/caddy/caddyhttp"
+	_ "github.com/orbsmiv/caddy/caddyhttp"
 
-	"github.com/mholt/caddy/caddytls"
+	"github.com/orbsmiv/caddy/caddytls"
 	// This is where other plugins get plugged in (imported)
 )
 

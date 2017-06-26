@@ -3,7 +3,7 @@ package pprof
 import (
 	"testing"
 
-	"github.com/mholt/caddy"
+	"github.com/orbsmiv/caddy"
 )
 
 func TestSetup(t *testing.T) {

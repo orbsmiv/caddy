@@ -13,8 +13,8 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/mholt/caddy/caddyhttp/httpserver"
-	"github.com/mholt/caddy/caddyhttp/staticfiles"
+	"github.com/orbsmiv/caddy/caddyhttp/httpserver"
+	"github.com/orbsmiv/caddy/caddyhttp/staticfiles"
 )
 
 func TestSort(t *testing.T) {

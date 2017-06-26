@@ -3,8 +3,8 @@ package index
 import (
 	"testing"
 
-	"github.com/mholt/caddy"
-	"github.com/mholt/caddy/caddyhttp/staticfiles"
+	"github.com/orbsmiv/caddy"
+	"github.com/orbsmiv/caddy/caddyhttp/staticfiles"
 )
 
 func TestIndexIncompleteParams(t *testing.T) {

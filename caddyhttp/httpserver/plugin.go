@@ -11,9 +11,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mholt/caddy"
-	"github.com/mholt/caddy/caddyfile"
-	"github.com/mholt/caddy/caddytls"
+	"github.com/orbsmiv/caddy"
+	"github.com/orbsmiv/caddy/caddyfile"
+	"github.com/orbsmiv/caddy/caddytls"
 )
 
 const serverType = "http"
@@ -495,7 +495,7 @@ var directives = []string{
 	"awslambda", // github.com/coopernurse/caddy-awslambda
 	"grpc",      // github.com/pieterlouw/caddy-grpc
 	"gopkg",     // github.com/zikes/gopkg
-	"restic",    // github.com/mholt/caddy-restic
+	"restic",    // github.com/orbsmiv/caddy-restic
 }
 
 const (

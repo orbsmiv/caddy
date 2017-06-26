@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mholt/caddy"
-	"github.com/mholt/caddy/caddyhttp/httpserver"
+	"github.com/orbsmiv/caddy"
+	"github.com/orbsmiv/caddy/caddyhttp/httpserver"
 )
 
 func TestSetup(t *testing.T) {

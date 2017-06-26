@@ -16,7 +16,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mholt/caddy/caddyhttp/httpserver"
+	"github.com/orbsmiv/caddy/caddyhttp/httpserver"
 )
 
 // Handler is a middleware type that can handle requests as a FastCGI client.

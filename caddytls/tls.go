@@ -19,7 +19,7 @@ import (
 	"net"
 	"strings"
 
-	"github.com/mholt/caddy"
+	"github.com/orbsmiv/caddy"
 	"github.com/xenolf/lego/acme"
 )
 

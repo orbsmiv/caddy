@@ -25,7 +25,7 @@ import (
 
 	"golang.org/x/crypto/ocsp"
 
-	"github.com/mholt/caddy"
+	"github.com/orbsmiv/caddy"
 	"github.com/xenolf/lego/acme"
 )
 

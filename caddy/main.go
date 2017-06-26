@@ -5,7 +5,7 @@
 
 package main
 
-import "github.com/mholt/caddy/caddy/caddymain"
+import "github.com/orbsmiv/caddy/caddy/caddymain"
 
 var run = caddymain.Run // replaced for tests
 

@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/mholt/caddy/caddyhttp/httpserver"
+	"github.com/orbsmiv/caddy/caddyhttp/httpserver"
 )
 
 func TestRedirect(t *testing.T) {

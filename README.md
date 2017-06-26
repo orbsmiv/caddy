@@ -6,12 +6,12 @@
 <p align="center">
 	<a href="https://travis-ci.org/mholt/caddy"><img src="https://img.shields.io/travis/mholt/caddy.svg?label=linux+build"></a>
 	<a href="https://ci.appveyor.com/project/mholt/caddy"><img src="https://img.shields.io/appveyor/ci/mholt/caddy.svg?label=windows+build"></a>
-	<a href="https://godoc.org/github.com/mholt/caddy"><img src="https://img.shields.io/badge/godoc-reference-blue.svg"></a>
-	<a href="https://goreportcard.com/report/mholt/caddy"><img src="https://goreportcard.com/badge/github.com/mholt/caddy"></a>
+	<a href="https://godoc.org/github.com/orbsmiv/caddy"><img src="https://img.shields.io/badge/godoc-reference-blue.svg"></a>
+	<a href="https://goreportcard.com/report/mholt/caddy"><img src="https://goreportcard.com/badge/github.com/orbsmiv/caddy"></a>
 	<br>
 	<a href="https://twitter.com/caddyserver" title="@caddyserver on Twitter"><img src="https://img.shields.io/badge/twitter-@caddyserver-55acee.svg" alt="@caddyserver on Twitter"></a>
 	<a href="https://caddy.community" title="Caddy Forum"><img src="https://img.shields.io/badge/community-forum-ff69b4.svg" alt="Caddy Forum"></a>
-	<a href="https://sourcegraph.com/github.com/mholt/caddy?badge" title="Caddy on Sourcegraph"><img src="https://sourcegraph.com/github.com/mholt/caddy/-/badge.svg" alt="Caddy on Sourcegraph"></a>
+	<a href="https://sourcegraph.com/github.com/orbsmiv/caddy?badge" title="Caddy on Sourcegraph"><img src="https://sourcegraph.com/github.com/orbsmiv/caddy/-/badge.svg" alt="Caddy on Sourcegraph"></a>
 </p>
 <p align="center">
 	<a href="https://caddyserver.com/download">Download</a> ·
@@ -23,7 +23,7 @@
 
 Caddy is fast, easy to use, and makes you more productive.
 
-Available for Windows, Mac, Linux, BSD, Solaris, and [Android](https://github.com/mholt/caddy/wiki/Running-Caddy-on-Android).
+Available for Windows, Mac, Linux, BSD, Solaris, and [Android](https://github.com/orbsmiv/caddy/wiki/Running-Caddy-on-Android).
 
 ## Menu
 
@@ -55,9 +55,9 @@ Caddy binaries have no dependencies and are available for every platform. Get Ca
 
 - **[Download page](https://caddyserver.com/download)** allows you to
 customize your build in the browser
-- **[Latest release](https://github.com/mholt/caddy/releases/latest)** for
+- **[Latest release](https://github.com/orbsmiv/caddy/releases/latest)** for
 pre-built, vanilla binaries
-- **go get** to build from source: `go get github.com/mholt/caddy/caddy` (requires Go 1.8 or newer)
+- **go get** to build from source: `go get github.com/orbsmiv/caddy/caddy` (requires Go 1.8 or newer)
 
 Then make sure the `caddy` binary is in your PATH.
 
@@ -119,7 +119,7 @@ Caddy is production-ready if you find it to be a good fit for your site and work
 
 **Running as root:** We advise against this. You can still listen on ports < 1024 on Linux using setcap like so: `sudo setcap cap_net_bind_service=+ep ./caddy`
 
-The Caddy project does not officially maintain any system-specific integrations nor suggest how to administer your own system. But your download file includes [unofficial resources](https://github.com/mholt/caddy/tree/master/dist/init) contributed by the community that you may find helpful for running Caddy in production.
+The Caddy project does not officially maintain any system-specific integrations nor suggest how to administer your own system. But your download file includes [unofficial resources](https://github.com/orbsmiv/caddy/tree/master/dist/init) contributed by the community that you may find helpful for running Caddy in production.
 
 How you choose to run Caddy is up to you. Many users are satisfied with `nohup caddy &`. Others use `screen`. Users who need Caddy to come back up after reboots either do so in the script that caused the reboot, add a command to an init script, or configure a service with their OS.
 
@@ -128,9 +128,9 @@ If you have questions or concerns about Caddy' underlying crypto implementations
 
 ## Contributing
 
-**[Join our forum](https://caddy.community) where you can chat with other Caddy users and developers!** To get familiar with the code base, try [Caddy code search on Sourcegraph](https://sourcegraph.com/github.com/mholt/caddy/-/search)!
+**[Join our forum](https://caddy.community) where you can chat with other Caddy users and developers!** To get familiar with the code base, try [Caddy code search on Sourcegraph](https://sourcegraph.com/github.com/orbsmiv/caddy/-/search)!
 
-Please see our [contributing guidelines](https://github.com/mholt/caddy/blob/master/.github/CONTRIBUTING.md) for instructions. If you want to write a plugin, check out the [developer wiki](https://github.com/mholt/caddy/wiki).
+Please see our [contributing guidelines](https://github.com/orbsmiv/caddy/blob/master/.github/CONTRIBUTING.md) for instructions. If you want to write a plugin, check out the [developer wiki](https://github.com/orbsmiv/caddy/wiki).
 
 We use GitHub issues and pull requests only for discussing bug reports and the development of specific changes. We welcome all other topics on the [forum](https://caddy.community)!
 

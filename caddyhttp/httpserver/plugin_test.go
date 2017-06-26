@@ -4,8 +4,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/mholt/caddy"
-	"github.com/mholt/caddy/caddyfile"
+	"github.com/orbsmiv/caddy"
+	"github.com/orbsmiv/caddy/caddyfile"
 )
 
 func TestStandardizeAddress(t *testing.T) {
