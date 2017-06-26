@@ -1,3 +1,17 @@
+###JC NOTES
+
+To build...
+
+Run `docker run --rm -it -v ~/Desktop/binaries:/go/bin golang`
+
+In the resulting container run:
+
+`env GOOS=linux GOARCH=arm GOARM=7 go get github.com/orbsmiv/caddy/caddy`
+
+Copy the ARM7 binary to RPi and run the following to give the executable elevated permissions (to access ports 80 & 443): `sudo setcap CAP_NET_BIND_SERVICE=+eip /path/to/binary`
+
+
+
 <p align="center">
 	<a href="https://caddyserver.com"><img src="https://cloud.githubusercontent.com/assets/1128849/25305033/12916fce-2731-11e7-86ec-580d4d31cb16.png" alt="Caddy" width="400"></a>
 </p>
